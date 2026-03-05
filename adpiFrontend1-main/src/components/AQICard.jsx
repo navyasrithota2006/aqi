@@ -6,7 +6,7 @@ const getAQIColor = (aqi) => {
   if (aqi <= 150) return 'bg-orange-500';
   if (aqi <= 200) return 'bg-red-500';
   if (aqi <= 300) return 'bg-red-700';
-  return 'bg-red-800';
+  return 'bg-red-900';
 };
 
 const getAQIGradient = (aqi) => {
