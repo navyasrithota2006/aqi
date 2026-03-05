@@ -57,7 +57,7 @@ export const ForecastAlerts = () => {
     fetchAlerts();
   }, []);
 
-  const fetchAlerts = async () => {
+  const fetchAlerts = asyn () => {
     setLoading(true);
     setError(null);
     try {
