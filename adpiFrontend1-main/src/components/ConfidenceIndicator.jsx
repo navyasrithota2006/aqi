@@ -58,7 +58,7 @@ export const ConfidenceIndicator = ({ level, score, explanation }) => {
               </span>
             )}
           </div>
-          
+          <p className={`text-sm ${config.textColor} leading-relaxed`}>
             {explanation}
           </p>
         </div>
