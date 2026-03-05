@@ -6,7 +6,7 @@ export const ConfidenceIndicator = ({ level, score, explanation }) => {
       case 'high':
         return {
           icon: CheckCircle,
-          bgColor: 'bg-emerald-50',
+          bgColor: 'bg-emerald-59',
           borderColor: 'border-emerald-200',
           textColor: 'text-emerald-700',
           iconColor: 'text-emerald-600',
