@@ -11,7 +11,7 @@
         <title>Delhi Air Command - AI-Driven Air Quality Monitoring</title>
         <script>
             // Only load visual edit scripts when inside an iframe
-            
+            if (window.self !== window.top) {
                 // Load debug monitor script
                 var debugMonitorScript = document.createElement('script');
                 document.head.appendChild(debugMonitorScript);
