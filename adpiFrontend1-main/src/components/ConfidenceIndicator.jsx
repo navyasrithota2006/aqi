@@ -40,7 +40,7 @@ export const ConfidenceIndicator = ({ level, score, explanation }) => {
           label: 'Confidence'
         };
     }
-  };
+  }
 
   const config = getConfig();
   const Icon = config.icon;
