@@ -23,7 +23,7 @@ const getAQICategory = (aqi) => {
   if (aqi <= 100) return 'Moderate';
   if (aqi <= 150) return 'Unhealthy for Sensitive';
   if (aqi <= 200) return 'Unhealthy';
-  
+  if (aqi <= 300) return 'Very Unhealthy';
   return 'Hazardous';
 };
 
